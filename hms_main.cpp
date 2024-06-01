@@ -279,8 +279,8 @@ int main()
         Floor{3,
               std::vector<Room>{
                   Room{1, 2, RoomState::AVAILABLE, Visitor{""}},
-                  Room{1, 2, RoomState::AVAILABLE, Visitor{""}},
-                  Room{1, 2, RoomState::AVAILABLE, Visitor{""}},
+                  Room{2, 2, RoomState::AVAILABLE, Visitor{""}},
+                  Room{3, 2, RoomState::AVAILABLE, Visitor{""}},
               }},
     });
     hostel.printHostel();
